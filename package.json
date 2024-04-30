@@ -1,0 +1,14 @@
+{
+  "name": "timer-electron-app",
+  "version": "1.0.0",
+  "description": "A timer app built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Arinjay Wyawhare",
+  "license": "DBaJ-NC-CFL",
+  "dependencies": {
+    "electron": "^22.3.24"
+  }
+}
