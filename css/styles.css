@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer-container {
+    text-align: center;
+}
+
+.timer {
+    font-size: 6em;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    margin: 5px;
+}
+
+@media (max-width: 576px) {
+    .timer {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 400px) {
+    .timer {
+        font-size: 3em;
+    }
+}
